@@ -3,8 +3,9 @@ package com.imagedemo;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.lwansbrough.RCTCamera.RCTCameraPackage;
+import com.brentvatne.react.ReactVideoPackage;
 import com.imagepicker.ImagePickerPackage;
+import com.mg.app.PickerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -25,8 +26,9 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RCTCameraPackage(),
-            new ImagePickerPackage()
+            new ReactVideoPackage(),
+            new ImagePickerPackage(),
+            new PickerPackage()
       );
     }
 

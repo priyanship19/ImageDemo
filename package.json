@@ -7,11 +7,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "link": "^0.1.5",
     "prop-types": "^15.6.0",
     "react": "16.2.0",
     "react-native": "^0.53.0",
-    "react-native-camera": "^0.6.0",
     "react-native-customized-image-picker": "0.0.46",
     "react-native-image-picker": "^0.26.7",
     "react-native-video": "^2.0.0"
